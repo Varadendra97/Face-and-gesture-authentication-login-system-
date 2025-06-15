@@ -167,8 +167,8 @@ def extract_face_features(frame, face_mesh):
 
 def send_otp_email(to_email, otp):
     """Send OTP to user's email"""
-    sender_email = "bhatraghavendra093@gmail.com"
-    sender_password = "hccb laji vxtp irrd"   # Use App Password if 2FA is on
+    sender_email = ""
+    sender_password = ""   # Use App Password if 2FA is on
     subject = "Your OTP for Gesture Sequence Access"
     body = f"Your OTP is: {otp}\nThis OTP is valid for 5 minutes."
 
